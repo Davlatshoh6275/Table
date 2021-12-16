@@ -59,7 +59,7 @@ export default class Table extends Component {
                                 <input type="text" id='lastName' placeholder='Last Name' required onChange={this.props.addLastName} />
 
 
-                                <input type="number" placeholder='Age' required onChange={this.props.addAge} />
+                                <input type="number" placeholder='Age' required onChange={this.props.age} />
 
 
                                 <input type="text" placeholder='Is Married' required onChange={this.props.isMarried} />

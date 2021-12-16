@@ -95,7 +95,7 @@ export default class App extends Component {
 
         let lastName = event.target.value
 
-        obj.name = lastName
+        obj.lastName = lastName
 
         this.setState({
             obj
@@ -163,7 +163,7 @@ export default class App extends Component {
         return (
             <div>
 
-                <Table  users={this.state.users} Delete={this.delete} obj={this.state.obj} bool={this.state.bool} changedForm={this.changedForm} addUserBtn={this.addUserBtn} addName={this.addName} addLastName={this.addLastName}  age={this.addAge} isMarried={this.isMarried} addedUser={this.addedUser}/>
+                <Table  users={this.state.users} Delete={this.delete} obj={this.state.obj} bool={this.state.bool} changedForm={this.changedForm} addUserBtn={this.addUserBtn} addName={this.addName} addLastName={this.addLastName}  age={this.addAge} isMarried={this.isMarried} addedUser={this.addedUser} work={this.work}/>
             </div>
         )
     }
